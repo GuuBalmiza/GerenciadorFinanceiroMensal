@@ -1,0 +1,18 @@
+.Add {
+    background-color: #9e5aba;
+    border-radius: 5px;
+    width: 50%;
+    height: 10%;
+    border-color: #ffff96;
+    border-width: 0.2rem;
+    font-size: large;
+    color: black;
+    margin: 2.5rem 1rem 1rem 1rem;
+
+}
+.Add:hover{
+    background-color: #682684; 
+    transition: 0.4s;
+    border-color: #e0d124;
+    color: white;
+}

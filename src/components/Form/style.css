@@ -1,0 +1,23 @@
+.FormStyle{
+    flex-direction: column;
+    display: flex;
+    height: 100%;
+    margin: 1rem 1rem 1rem 1rem;
+    gap: 1rem;
+}
+
+label{
+    gap: 1rem;
+    color: greenyellow
+}
+
+input{
+    margin: 1rem 1rem 1rem 1rem;
+    height: 20%;
+    border-radius: 0.3rem;
+    border-color: chartreuse;
+}
+input:hover{
+    border-color: red;
+    transition: 0.3s;
+}
