@@ -28,13 +28,17 @@ class Formulario extends Component {
 
   handleSubmit = (e) => {
     e.preventDefault();
-    // Lógica para lidar com os dados do formulário, como enviar para um servidor ou realizar ações no cliente.
+    if(this.state.nome  === '' || this.state.valor === '' ){
+      alert('Preencha todos os campos')
+    }
 
     console.log('Nome inserido:', this.state.nome);
   };
+  
 
   render() {
     return (
+
       <form onSubmit={this.handleSubmit} className='FormStyle'>
         <label>
           Nome:

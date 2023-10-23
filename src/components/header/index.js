@@ -3,7 +3,7 @@ import './style.css'
 
 const Header = () => {
     return(
-        <header style={{backgroundColor : 'black'}}> 
+        <header> 
            <h1> GERENCIADOR FINANCEIRO </h1> 
         </header>
     )
