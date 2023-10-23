@@ -1,21 +1,25 @@
 .FormStyle{
-    flex-direction: column;
     display: flex;
+    flex-direction: column;
+    width: 20rem;
     height: 100%;
-    margin: 1rem 1rem 1rem 1rem;
     gap: 1rem;
+    background-color: #FFFF00;
+    border: 0.1rem solid black;
+    border-radius: 0.5rem;
 }
 
 label{
+    margin-top: 1rem;
+    margin-left: 1rem;
     gap: 1rem;
-    color: greenyellow
+    color: E0E0E0
 }
 
 input{
-    margin: 1rem 1rem 1rem 1rem;
+    margin-left: 1rem;
     height: 20%;
-    border-radius: 0.3rem;
-    border-color: chartreuse;
+    border-radius: 0.2rem;
 }
 input:hover{
     border-color: red;
